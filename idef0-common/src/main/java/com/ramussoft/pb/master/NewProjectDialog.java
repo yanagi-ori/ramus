@@ -147,7 +147,7 @@ public class NewProjectDialog extends JDialog {
         }
 
         public String getDescribe() {
-            return Factory.getString("ouners.Describe");
+            return Factory.getString("owners.Describe");
         }
 
         public void set() {
