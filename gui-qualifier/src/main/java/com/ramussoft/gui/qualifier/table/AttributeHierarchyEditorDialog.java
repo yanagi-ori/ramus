@@ -23,7 +23,7 @@ public class AttributeHierarchyEditorDialog extends BaseDialog {
     private final AttributeHierarchyEditorPanel panel;
 
     private final JCheckBox box = new JCheckBox(GlobalResourcesManager
-            .getString("ShowBaseHierarchi"));
+            .getString("ShowBaseHierarchy"));
 
     private Hierarchy hierarchy;
 

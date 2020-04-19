@@ -72,7 +72,7 @@ public class TableViewPreferenciesDialog extends BaseDialog implements
         this.tableView = tableView;
         this
                 .setTitle(GlobalResourcesManager
-                        .getString("TableViewPreferencies"));
+                        .getString("TableViewPreferences"));
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         qualifier = tableView.getQualifier();
         list = qualifier.getAttributes();

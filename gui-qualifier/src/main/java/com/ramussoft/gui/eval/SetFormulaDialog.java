@@ -92,7 +92,7 @@ public class SetFormulaDialog extends BaseDialog {
                 sb.append("<html><body>");
                 for (String value : e.getValues()) {
                     sb.append(MessageFormat.format(GlobalResourcesManager
-                            .getString("Eval.UnknowValue"), value));
+                            .getString("Eval.UnknownValue"), value));
                     sb.append("<br>");
                 }
                 sb.append("</body></html>");
@@ -106,7 +106,7 @@ public class SetFormulaDialog extends BaseDialog {
                     JOptionPane.showMessageDialog(null,
                             MessageFormat
                                     .format(GlobalResourcesManager
-                                                    .getString("Eval.UnknowFunction"),
+                                                    .getString("Eval.UnknownFunction"),
                                             function));
                     return;
                 }

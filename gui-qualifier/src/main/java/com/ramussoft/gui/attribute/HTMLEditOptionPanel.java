@@ -59,7 +59,7 @@ public class HTMLEditOptionPanel extends JPanel {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         jLabel = new JLabel();
-        jLabel.setText(GlobalResourcesManager.getString("HTMLEditor.Programm"));
+        jLabel.setText(GlobalResourcesManager.getString("HTMLEditor.Program"));
         this.setSize(300, 200);
         setLayout(new GridBagLayout());
         this.add(jLabel, gridBagConstraints);

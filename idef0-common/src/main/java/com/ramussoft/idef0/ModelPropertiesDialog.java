@@ -583,7 +583,7 @@ public class ModelPropertiesDialog extends BaseDialog {
         private static final long serialVersionUID = -5171624095557878838L;
 
         public AttributePreferencesAction() {
-            this.putValue(ACTION_COMMAND_KEY, "AttributePreferencies");
+            this.putValue(ACTION_COMMAND_KEY, "AttributePreferences");
             this.putValue(
                     SMALL_ICON,
                     new ImageIcon(getClass().getResource(

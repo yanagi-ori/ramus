@@ -56,7 +56,7 @@ public abstract class TableView extends AbstractTableView implements TabView {
         private static final long serialVersionUID = 3105527827224308366L;
 
         {
-            putValue(Action.ACTION_COMMAND_KEY, "TableViewPreferencies");
+            putValue(Action.ACTION_COMMAND_KEY, "TableViewPreferences");
             putValue(
                     Action.SMALL_ICON,
                     new ImageIcon(getClass().getResource(

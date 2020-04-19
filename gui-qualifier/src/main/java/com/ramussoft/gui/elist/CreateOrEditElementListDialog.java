@@ -103,7 +103,7 @@ public abstract class CreateOrEditElementListDialog extends BaseDialog {
     protected void onOk() {
         if (!isOk()) {
             JOptionPane.showMessageDialog(this, GlobalResourcesManager
-                    .getString("SomeNeededPreferenciesAreNotSeted"));
+                    .getString("SomeNeededPreferencesAreNotSet"));
             return;
         }
 

@@ -348,7 +348,7 @@ public class EvalQualifierSetupEditor extends AbstractTableModel implements
 
             if (unknown) {
                 list.add(MessageFormat.format(
-                        GlobalResourcesManager.getString("Eval.UnknowValue"),
+                        GlobalResourcesManager.getString("Eval.UnknownValue"),
                         value));
             }
         }
@@ -360,7 +360,7 @@ public class EvalQualifierSetupEditor extends AbstractTableModel implements
         for (String function : eval.getFunctions())
             if (!Util.getUtils(engine).isFunctionExists(function)) {
                 list.add(MessageFormat.format(
-                        GlobalResourcesManager.getString("Eval.UnknowFunction"),
+                        GlobalResourcesManager.getString("Eval.UnknownFunction"),
                         function));
             }
     }

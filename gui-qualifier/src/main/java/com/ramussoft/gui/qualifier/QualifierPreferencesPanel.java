@@ -600,7 +600,7 @@ public class QualifierPreferencesPanel extends JPanel {
                 getClass()
                         .getResource("/com/ramussoft/gui/table/qualifier.png")));
         dialog.setTitle(GlobalResourcesManager
-                .getString("QialifierPreferenciesDialog.Title"));
+                .getString("QualifierPreferencesDialog.Title"));
         dialog.setMainPane(this);
         dialog.pack();
         dialog.setLocationRelativeTo(null);
@@ -622,7 +622,7 @@ public class QualifierPreferencesPanel extends JPanel {
         private static final long serialVersionUID = -5171624095557878838L;
 
         public AttributePreferencesAction() {
-            this.putValue(ACTION_COMMAND_KEY, "AttributePreferencies");
+            this.putValue(ACTION_COMMAND_KEY, "AttributePreferences");
             this.putValue(
                     SMALL_ICON,
                     new ImageIcon(getClass().getResource(

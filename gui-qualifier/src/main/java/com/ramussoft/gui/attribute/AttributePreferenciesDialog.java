@@ -218,7 +218,7 @@ public class AttributePreferenciesDialog extends BaseDialog {
         if (editor != null) {
             if (!editor.canApply()) {
                 JOptionPane.showMessageDialog(this, GlobalResourcesManager
-                        .getString("SomeNeededPreferenciesAreNotSeted"));
+                        .getString("SomeNeededPreferencesAreNotSet"));
                 return;
             }
         }

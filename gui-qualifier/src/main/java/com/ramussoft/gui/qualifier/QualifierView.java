@@ -284,7 +284,7 @@ public class QualifierView extends TableView implements UniqueView {
     protected Action qualifierPreferenciesAction = new AbstractAction() {
 
         {
-            putValue(ACTION_COMMAND_KEY, "QualifierPreferencies");
+            putValue(ACTION_COMMAND_KEY, "QualifierPreferences");
             this.putValue(
                     SMALL_ICON,
                     new ImageIcon(getClass().getResource(

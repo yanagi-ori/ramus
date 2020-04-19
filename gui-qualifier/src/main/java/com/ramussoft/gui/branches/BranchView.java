@@ -297,7 +297,7 @@ public class BranchView extends AbstractUniqueView implements UniqueView {
                 .getString("BranchCreationWarning");
         if (node.branch.getChildren().size() > 0)
             message = GlobalResourcesManager
-                    .getString("BranchNodeCreationWarniong");
+                    .getString("BranchNodeCreationWarning");
         if (JOptionPane.showConfirmDialog(framework.getMainFrame(), message,
                 UIManager.getString("OptionPane.titleText"),
                 JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE) != JOptionPane.YES_OPTION)
